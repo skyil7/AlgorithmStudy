@@ -3,6 +3,9 @@
 #define FOR(a,b,i) for(int i = a;i<b;i++)
 using namespace std;
 
+//problem from https://www.acmicpc.net/problem/9507
+//ACM-ICPC 2013 Pacific Northwest Region - G
+
 int64_t memo[67] = { 0 };
 int64_t gen(int n)
 {
